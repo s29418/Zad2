@@ -12,10 +12,8 @@
     public static int Average(int[] tab)
     {
         int average = 0;
-        foreach (int num in tab)
-        {
-            average += num;
-        }
+        foreach (int num in tab) average += num;
+        
         
         average = average / tab.Length;
         return average;
